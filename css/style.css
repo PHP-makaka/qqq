@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding:0;
+}
+h1 {
+  font: normal 170% , arial;
+ 	color:white;
+  letter-spacing: 0.1em;
+ 	text-decoration:none;
+ 	list-style: none;
+
+  }
+ .headder, h3{
+    padding-left: 3%;
+    font: normal 100% 'century gothic', arial;
+  }
+
+.header a{
+    text-decoration: none;
+}
+.header{
+	position: fixed;
+	z-index: 10000;
+	width: 100%;
+	height: auto;
+	background-color: black;
+	opacity:0.9;
+	text-align: center;
+	color:white
+}
+  .menubar{ 
+  }
+
+   ul.menu {; 
+  	float: center;
+  	margin-right:25%; 
+  	margin-left:25%;
+  	height: auto;
+   	padding-top: 1%;
+  	padding-bottom: 2%;	
+  	width: auto;
+  	
+
+ }
+  ul.menu li.selected{
+  	background-image: url(https://lh3.googleusercontent.com/proxy/xbLQ6gUtr0pqr6SwgRVr6PS97MUKSCS92zm7GH9ttFNQCPwV8ScfLhN4zYSQLFxN0b6nUbm7bjMP3_cQjGRY_Fms2UnM6IR4TlM);
+  	background-size: 70%;
+  	background-position: center;
+  	border:solid 2px;
+  	border-color: #483a3a;
+  }
+  ul.menu li{
+  	border:solid 1px;
+  	border-radius: 15px;
+  	text-align: center;
+   	float: left;
+   	width: 170px;
+   	margin-left:5%;
+ 	margin-top:1%;
+   	list-style: none;
+}  
+ul.menu li.selected a{
+	color:#fff;
+	width: 100%;
+  	height: 100%;
+	}
+ul.menu li a{
+	text-align: center;
+    display: block;
+    width: 100%;
+  	height: 100%;
+  	color:#fff;
+  	text-decoration: none;
+}
+.sitebarContainer{
+	padding-top:120px;
+	width: 100%;
+  background-image: url(https://img.freepik.com/free-photo/3d-abstract-background-with-network-connections-low-poly-plexus-design_1048-11867.jpg?size=626&ext=jpg) ;
+
+  background-size: 100%;
+	height: auto;
+	padding-bottom: 100px;
+}
+.log{
+
+	padding-bottom: 20px;
+	text-align: center;
+  color:white;
+}
+.kuula{
+  box-shadow: 30;
+	margin-left: 30%;
+	float: center;
+	width: 40%;
+	height:340px; 
+ border: solid 3px ;
+ border-color: #7e808470;
+
+}
+.sitebarLeft{
+  padding-top: 5%;
+  padding-left: 10%;
+	float: left;
+	width: 20%;
+  color:#b2bbc0;
+}
+.sitebarRight{
+  padding-left: 2%;
+  color:#b2bbc0;
+	float: right;
+	width: 20%;
+  max-width: 30%
+}
+.footer{
+	float: bottom;
+  background-position: center;
+  width: 100%;
+  height: 50px;
+  padding-top: 20px;
+  text-align: center;
+  color:black;
+  list-style: none;
+}
+.sitebarBottom{
+  margin-top: 100px;
+  width: 100%;
+ 
+  text-align: center;
+}
+.tes{
+
+  width: 100%;
+  color:white;
+  font: normal 150% 'century gothic', arial;
+  margin-bottom: 20px;
+}
+.ras{
+  margin-top: 100px;
+  width:100%;
+  text-align: center;
+}
+.qaq{
+  text-align: center;
+  background-color: black;
+  width: 30%;
+  margin-top: 10px;
+  margin-right: 35%;
+  margin-left: 35%;
+  border-radius: 20px;
+
+}
+/*///////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////*/
+
+
+@media screen and (min-width: 200px)and (max-width:560px)
+{
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header{
+    text-align: center;  
+    position: absolute;
+  }
+  .ul.menu {
+    margin-right:40%; 
+    margin-left:25%;
+    width: 100%;
+
+  }
+  .sitebarContainer{
+    width: 100%;
+    margin: 0;
+    padding-top:40%;
+  }
+  .kuula{
+     width: 100%;
+     float: right;
+     text-align: center;
+  }
+  .sitebarRight{
+    display: none;
+  }
+ .sitebarLeft{
+  width: 100%;
+  float: right;
+  text-align: center;
+ }      
+}
+
